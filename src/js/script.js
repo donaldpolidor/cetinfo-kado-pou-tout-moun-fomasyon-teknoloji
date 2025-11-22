@@ -102,8 +102,8 @@ function gererCompteurTickets() {
     if (!ticketCountElement) return;
     
     const aujourdHui = new Date();
-    const dateDebut = new Date('2025-10-14');
-    const dateLimite = new Date('2025-11-23');
+    const dateDebut = new Date('2025-11-21');
+    const dateLimite = new Date('2025-12-23');
     
     if (aujourdHui < dateDebut) {
         ticketCountElement.textContent = 'Tickets restants : 200';
